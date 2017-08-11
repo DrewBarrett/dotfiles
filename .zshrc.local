@@ -1,13 +1,1 @@
-HISTFILE=~/.histfile
-HISTSIZE=1000
-SAVEHIST=1000
-setopt autocd notify COMPLETE_ALIASES
-bindkey -e
-zstyle :compinstall filename '/home/drew/.zshrc'
-zstyle ':completion:*' menu select
 source $HOME/.alias
-autoload -Uz compinit promptinit
-compinit
-promptinit
-
-prompt redhat
