@@ -1,6 +1,7 @@
 # dotfiles
 dot dot dot 
-```git clone --bare git@github.com:DrewBarrett/dotfiles.git $HOME/.dotfiles
+```
+git clone --bare git@github.com:DrewBarrett/dotfiles.git $HOME/.dotfiles
 function config {
    /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME $@
 }
