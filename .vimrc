@@ -1,3 +1,4 @@
+set nocompatible
 " enable syntax highlighting
 syntax enable
 filetype indent plugin on
