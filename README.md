@@ -1,6 +1,9 @@
 # dotfiles
 dot dot dot 
-```git clone --bare git@github.com:DrewBarrett/dotfiles.git $HOME/.dotfiles
+```
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+git clone --bare git@github.com:DrewBarrett/dotfiles.git $HOME/.dotfiles
 function config {
    /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME $@
 }

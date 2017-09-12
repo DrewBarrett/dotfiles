@@ -1,3 +1,4 @@
+set nocompatible
 " enable syntax highlighting
 syntax enable
 filetype indent plugin on
@@ -6,7 +7,7 @@ filetype indent plugin on
 set number
 "
 " " set tabs to have 4 spaces
-set ts=4
+set softtabstop=4
 "
 " " indent when moving to the next line while writing code
 set autoindent
@@ -18,6 +19,11 @@ set expandtab
 set shiftwidth=4
 "
 "
+set ignorecase
+set smartcase
+
+set wildmenu
+
 " " show the matching part of the pair for [] {} and ()
 set showmatch
 "
@@ -25,6 +31,8 @@ set showmatch
 " " let python_highlight_all = 0
 set background=dark
 set backspace=indent,eol,start
+
+set mouse=a
 
 " " vim-plug section
 call plug#begin()
