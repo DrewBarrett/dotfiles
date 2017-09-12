@@ -2,3 +2,4 @@ alias config='/usr/bin/git --git-dir=/home/drew/.dotfiles/ --work-tree=/home/dre
 alias ls='ls --color=auto'
 alias ll='ls -l'
 alias pacman='pacman --color=always'
+alias gl='sshfs dbarret1@gl.umbc.edu: ~/GL'
