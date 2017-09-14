@@ -42,6 +42,8 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
+Plug 'raimondi/delimitmate'
+
 call plug#end()
 
 let g:airline#extensions#tabline#enabled = 1
