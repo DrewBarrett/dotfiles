@@ -46,6 +46,8 @@ Plug 'raimondi/delimitmate'
 
 Plug 'shougo/neocomplete.vim'
 
+Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
+
 call plug#end()
 
 let g:airline#extensions#tabline#enabled = 1
