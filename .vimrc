@@ -32,6 +32,13 @@ set showmatch
 set background=dark
 set backspace=indent,eol,start
 
+" Set to auto read when a file is changed from the outside
+set autoread
+
+" :W sudo saves the file 
+" (useful for handling the permission-denied error)
+command W w !sudo tee % > /dev/null
+
 set mouse=a
 
 " " vim-plug section
@@ -47,6 +54,8 @@ Plug 'raimondi/delimitmate'
 Plug 'shougo/neocomplete.vim'
 
 Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
+
+Plug 'octol/vim-cpp-enhanced-highlight'
 
 call plug#end()
 
