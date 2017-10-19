@@ -59,6 +59,8 @@ Plug 'sheerun/vim-polyglot'
 
 Plug 'airblade/vim-gitgutter'
 
+Plug 'tomtom/tcomment_vim'
+
 call plug#end()
 
 let g:airline#extensions#tabline#enabled = 1
