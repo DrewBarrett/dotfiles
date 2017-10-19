@@ -55,7 +55,9 @@ Plug 'shougo/neocomplete.vim'
 
 Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 
-Plug 'octol/vim-cpp-enhanced-highlight'
+Plug 'sheerun/vim-polyglot'
+
+Plug 'airblade/vim-gitgutter'
 
 call plug#end()
 
