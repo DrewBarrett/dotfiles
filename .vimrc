@@ -55,6 +55,8 @@ Plug 'shougo/neocomplete.vim'
 
 Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 
+Plug 'godlygeek/tabular'
+
 Plug 'sheerun/vim-polyglot'
 
 Plug 'airblade/vim-gitgutter'
