@@ -47,6 +47,8 @@ set mouse=a
 " " vim-plug section
 call plug#begin()
 
+Plug 'conradirwin/vim-bracketed-paste'
+
 Plug 'ctrlpvim/ctrlp.vim'
 
 Plug 'vim-airline/vim-airline'
