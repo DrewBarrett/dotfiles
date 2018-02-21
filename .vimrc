@@ -35,6 +35,9 @@ set backspace=indent,eol,start
 " Set to auto read when a file is changed from the outside
 set autoread
 
+" Coolio search
+set incsearch
+
 " :W sudo saves the file 
 " (useful for handling the permission-denied error)
 command W w !sudo tee % > /dev/null
