@@ -10,7 +10,7 @@ set number
 set softtabstop=4
 "
 " " indent when moving to the next line while writing code
-set autoindent
+" " set autoindent
 "
 " " expand tabs into spaces
 set expandtab
