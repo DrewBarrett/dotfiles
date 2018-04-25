@@ -74,11 +74,13 @@ elseif has('python3')
   Plug 'Shougo/deoplete.nvim'
   Plug 'roxma/nvim-yarp'
   Plug 'roxma/vim-hug-neovim-rpc'
+  Plug 'zchee/deoplete-jedi'
 endif
-let g:deoplete#enable_at_startup = 1
 
 call plug#end()
 
+let g:deoplete#enable_at_startup = 1
+let g:deoplete#sources#jedi#python_path = '/usr/bin/python3'
 let g:airline#extensions#tabline#enabled = 1
 " let g:airline_powerline_fonts = 1
 " if !exists('g:airline_symbols')
