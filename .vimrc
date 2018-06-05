@@ -20,6 +20,7 @@ set shiftwidth=4
 "
 "
 autocmd Filetype javascript setlocal softtabstop=2 shiftwidth=2 tabstop=2
+autocmd Filetype gitcommit,markdown setlocal spell
 
 set ignorecase
 set smartcase
