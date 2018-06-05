@@ -40,6 +40,9 @@ set autoread
 " Coolio search
 set incsearch
 
+" US Spellings
+set spelllang=en_us
+
 " :W sudo saves the file 
 " (useful for handling the permission-denied error)
 command W w !sudo tee % > /dev/null
@@ -63,6 +66,8 @@ Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 Plug 'godlygeek/tabular'
 
 Plug 'sheerun/vim-polyglot'
+
+Plug 'rodjek/vim-puppet'
 
 Plug 'airblade/vim-gitgutter'
 
