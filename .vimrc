@@ -20,6 +20,7 @@ set shiftwidth=4
 "
 "
 autocmd Filetype javascript setlocal softtabstop=2 shiftwidth=2 tabstop=2
+autocmd Filetype gitcommit,markdown setlocal spell
 
 set ignorecase
 set smartcase
@@ -39,6 +40,9 @@ set autoread
 
 " Coolio search
 set incsearch
+
+" US Spellings
+set spelllang=en_us
 
 " :W sudo saves the file 
 " (useful for handling the permission-denied error)
@@ -63,6 +67,8 @@ Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 Plug 'godlygeek/tabular'
 
 Plug 'sheerun/vim-polyglot'
+
+Plug 'rodjek/vim-puppet'
 
 Plug 'airblade/vim-gitgutter'
 
