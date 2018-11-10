@@ -74,6 +74,8 @@ Plug 'airblade/vim-gitgutter'
 
 Plug 'tomtom/tcomment_vim'
 
+Plug 'myhere/vim-nodejs-complete'
+
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 elseif has('python3')
