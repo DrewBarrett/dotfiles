@@ -1,3 +1,5 @@
+# set PATH so it includes user's private bin directories
+PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 source $HOME/.alias
 zstyle ':prompt:grml:left:setup' items change-root user at host path percent
 zstyle ':prompt:grml:right:setupt' items
