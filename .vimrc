@@ -44,6 +44,9 @@ set incsearch
 " US Spellings
 set spelllang=en_us
 
+" Let complete use spellchecker
+set complete+=kspell
+
 " :W sudo saves the file 
 " (useful for handling the permission-denied error)
 command W w !sudo tee % > /dev/null
