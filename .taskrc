@@ -34,3 +34,4 @@ taskd.ca=~/.ssl/ca.cert.pem
 taskd.server=cloud1.discordantgamers.com:53589
 taskd.credentials=Public/Drew B/827b6c51-f0fc-41e3-bb3c-90ab2c69473a
 taskd.trust=ignore hostname
+context.school=proj:School
