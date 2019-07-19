@@ -17,3 +17,4 @@ export PS1="\[\033[38;5;7m\][\[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;4m\]\u\
 if [ -f $HOME/.alias ]; then
       source $HOME/.alias
 fi
+PATH="$HOME/bin:$HOME/.local/bin:$PATH"
