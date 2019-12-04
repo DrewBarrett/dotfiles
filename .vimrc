@@ -79,6 +79,8 @@ Plug 'tomtom/tcomment_vim'
 
 Plug 'myhere/vim-nodejs-complete'
 
+Plug 'xuhdev/vim-latex-live-preview'
+
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
   Plug 'zchee/deoplete-jedi'
