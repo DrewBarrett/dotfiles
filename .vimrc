@@ -4,7 +4,7 @@ syntax enable
 filetype indent plugin on
 "
 " " show line numbers
-set number
+" set number
 "
 " " set tabs to have 4 spaces
 set softtabstop=4
@@ -79,7 +79,9 @@ Plug 'tomtom/tcomment_vim'
 
 Plug 'myhere/vim-nodejs-complete'
 
-Plug 'xuhdev/vim-latex-live-preview'
+Plug 'pearofducks/ansible-vim', { 'do': './UltiSnips/generate.sh --style dictionary' }
+
+" Plug 'xuhdev/vim-latex-live-preview'
 
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
@@ -102,4 +104,4 @@ let g:airline#extensions#tabline#enabled = 1
 " endif
 " let g:airline_symbols.space = "\ua0"
 let g:airline_theme='raven'
-
+let g:ansible_unindent_after_newline = 1
