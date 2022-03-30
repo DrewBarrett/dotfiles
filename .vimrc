@@ -97,6 +97,7 @@ call plug#end()
 
 let g:deoplete#enable_at_startup = 1
 let g:deoplete#sources#jedi#python_path = '/usr/bin/python3'
+let g:python3_host_prog = '/usr/bin/python3'
 let g:airline#extensions#tabline#enabled = 1
 " let g:airline_powerline_fonts = 1
 " if !exists('g:airline_symbols')
